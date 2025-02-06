@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "title": "Diego Portfolio",
+    "description": "My portfolio created with Next.js and Tailwind CSS"
+  },
+  "Header": {
+    "me": "Me",
+    "about": "About",
+    "proyects": "Proyects",
+    "technologies": "Technologies",
+    "contact": "Contact"
+  },
+  "Resume": {
+    "first": {
+      "name": "Diego Torres",
+      "work": "FULLSTACK DEVELOPER"
+    },
+    "second": {
+      "seccion": "Age",
+      "detail": "31 years old"
+    },
+    "third": {
+      "seccion": "Nationality",
+      "detail": "Peruvian"
+    },
+    "fourth": {
+      "seccion": "Cellphone",
+      "detail": "+51 986377441"
+    }
+  },
+  "Detail": {
+    "title": "ABOUT ME",
+    "about": "I am adedicated web and mobile developer with a focus on building high-performance applications that deliver seamless user experiences. My expertise lies in leveraging the React and React Native libraries to        create responsive, fast-loading, and intuitive applications tailored for both web and mobile platforms. By utilizing a diverse set of modern tools and frameworks, I optimize each project to reduce development time without compromising on quality. I am committed to crafting scalable solutions that meet the demands of today’s users while ensuring adaptability for future growth."
+  },
+  "Proyects": {
+    "web": {
+      "title": "Web",
+      "proyects": [
+        {
+          "nombre": "ONLINE CHAT",
+          "imagen": "https://i.ibb.co/HFVhJgC/Captura-de-pantalla-20-7-2024-7168-chatportfolio-up-railway-app.jpg",
+          "direccion": "https://chatportfolio.vercel.app",
+          "descripcion": "Online chat, implement websockets with login and chat rooms, JWT security method.",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "Websocket",
+            "JWT"
+          ]
+        },
+        {
+          "nombre": "STUFFED TOY STORE",
+          "imagen": "https://i.ibb.co/28k3ndT/Opera-Captura-de-pantalla-2024-08-08-014230-localhost.png",
+          "direccion": "https://teddy-store.vercel.app",
+          "descripcion": "Online stuffed toy store with registration, login, and shopping cart.",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "React",
+            "JWT"
+          ]
+        },
+        {
+          "nombre": "CRIPTO LIVES RATES",
+          "imagen": "https://i.ibb.co/9NK54C6/image.png",
+          "direccion": "https://criptoweb-portfolio.vercel.app",
+          "descripcion": "A project focused on extracting cryptocurrency price data from a webpage using Web Scraping techniques.",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "Puppeteer",
+            "Tailwind"
+          ]
+        },
+        {
+          "nombre": "FAST WEB TOOLS",
+          "imagen": "https://i.ibb.co/R6k7Tz3/webtools.png",
+          "direccion": "https://fasttools.vercel.app",
+          "descripcion": "Web application equipped with tools, using the native functions of the browser.",
+          "tecnologias": ["Express", "NextJs", "NodeJS", "Tailwind"]
+        },
+        {
+          "nombre": "SCREEN SHARER",
+          "imagen": "https://i.ibb.co/2grLcKW/screensharer.png",
+          "direccion": "https://dev-screensharer.vercel.app",
+          "descripcion": "Web application for real-time screen sharing between two computers focused on delivering a fast and seamless user experience.",
+          "tecnologias": [
+            "Express",
+            "NextJs",
+            "NodeJS",
+            "Tailwind",
+            "Socket.io",
+            "Simple-peer"
+          ]
+        }
+      ]
+    }
+  },
+  "Technologies": {
+    "title": "TECHNOLOGIES",
+    "frontend": {
+      "title": "Frontent",
+      "technologies": [
+        {
+          "url": "https://www.svgrepo.com/show/373669/html.svg",
+          "alt": "Html",
+          "style": "Icono1"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/452185/css-3.svg",
+          "alt": "Css",
+          "style": "Icono2"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/349419/javascript.svg",
+          "alt": "Javascript",
+          "style": "Icono3"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/439290/react.svg",
+          "alt": "React",
+          "style": "Icono4"
+        },
+        {
+          "url": "https://www.iconbolt.com/iconsets/teenyicons-outline/nextjs.svg",
+          "alt": "NextJs",
+          "style": "Icono5"
+        },
+
+        {
+          "url": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+          "alt": "Typescript",
+          "style": "Icono6"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/503536/react.svg",
+          "alt": "React Native",
+          "style": "Icono7"
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "technologies": [
+        {
+          "url": "https://www.svgrepo.com/show/452091/python.svg",
+          "alt": "Python",
+          "style": "Icono8"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/354180/php.svg",
+          "alt": "PHP",
+          "style": "Icono9"
+        },
+
+        {
+          "url": "https://www.svgrepo.com/show/369381/laravel.svg",
+          "alt": "Laravel",
+          "style": "Icono10"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/354107/nestjs.svg",
+          "alt": "NestJs",
+          "style": "Icono11"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/354228/puppeteer.svg",
+          "alt": "Puppeteer",
+          "style": "Icono12"
+        }
+      ]
+    },
+    "database": {
+      "title": "Database",
+      "technologies": [
+        {
+          "url": "https://www.svgrepo.com/show/373595/firebase.svg",
+          "alt": "Firebase",
+          "style": "Icono13"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/303301/postgresql-logo.svg",
+          "alt": "PostgreSQL",
+          "style": "Icono14"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/342053/mysql.svg",
+          "alt": "MySQL",
+          "style": "Icono15"
+        },
+        {
+          "url": "https://www.svgrepo.com/show/331488/mongodb.svg",
+          "alt": "MongoDB",
+          "style": "Icono16"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Tools",
+      "technologies": [
+        {
+          "url": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+          "alt": "Bootstrap",
+          "style": "Icono17"
+        },
+
+        {
+          "url": "https://www.svgrepo.com/show/374118/tailwind.svg",
+          "alt": "Tailwind",
+          "style": "Icono18"
+        }
+      ]
+    }
+  },
+  "Comments": {
+    "title": "CONTACT ME",
+    "name": "Name",
+    "email": "Email",
+    "text": "Write your questions and comments here please"
+  }
+}

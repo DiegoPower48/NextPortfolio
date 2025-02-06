@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --textColor: #171717;
+  /*Tailwind*/
+  --theme: #10b981;
+  --text-theme: #0a0a0a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --textColor: #ededed;
+    /*Tailwind*/
+    --theme: #0a0a0a;
+    --text-theme: #10b981;
+  }
+}
+
+body {
+  color: var(--textColor);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  @apply scroll-smooth;
+}
+
+/* Coments*/
+
+.commentsLabel {
+  padding-left: 10px;
+  transition: 0.2s ease;
+}
+
+.formulario:focus,
+.formulario:valid {
+  box-shadow: 1px 1px 10px 1px #10b981;
+  border: 3px solid #10b981;
+}
+
+.textarea:focus,
+.textarea:valid {
+  box-shadow: 1px 1px 10px 1px #10b981;
+  border: 3px solid #10b981;
+}
+
+.formulario:focus + .commentsLabel,
+.formulario:valid + .commentsLabel {
+  transform: translate(-5px, -40px) scale(0.9);
+  color: #10b981;
+}
+.textarea:valid + .commentsLabel,
+.textarea:focus + .commentsLabel {
+  transform: translate(-20px, -25px) scale(0.9);
+  color: #10b981;
+}
+
+/* Proyects*/
+.cajaProyectos {
+  perspective: 1000px;
+}
+.cards {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.page1 {
+  backface-visibility: hidden;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 2px #008080;
+}
+
+.page2 {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 2px #008080;
+}
+.cajaProyectos:hover .cards {
+  transform: rotateY(180deg);
+}
+
+.liteyoutubefallback {
+  display: flex;
+  height: 250px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 20px;
+  color: #008080;
+  box-shadow: 1px 1px 10px 2px #008080;
+}
+
+.liteyoutubefallback:hover {
+  box-shadow: 1px 1px 20px 2px #008080;
+}
