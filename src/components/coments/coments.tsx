@@ -25,17 +25,11 @@ function Comentarios(props: Props) {
 
   const Datos = () => {
     toast
-      .promise(
-        axios.post(
-          "https://backendmichu.onrender.com/correo",
-          informacionFormulario
-        ),
-        {
-          loading: "⏳⏳  ENVIANDO COMENTARIO......",
-          success: <b>"GRACIAS POR EL COMENTARIO!!!!🚀"</b>,
-          error: <b>NO SE PUDO GUARDAR</b>,
-        }
-      )
+      .promise(axios.post(`${process.env.NEXT_PRIVATE_API_URL}/correo`), {
+        loading: "⏳⏳  ENVIANDO COMENTARIO......",
+        success: <b>"GRACIAS POR EL COMENTARIO!!!!🚀"</b>,
+        error: <b>NO SE PUDO GUARDAR</b>,
+      })
       .then((response) => {
         reset();
         console.log(response);
