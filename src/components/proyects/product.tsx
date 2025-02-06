@@ -17,16 +17,18 @@ export default function Products(props: Props) {
       className={`cajaProyectos h-64 w-full grid items-center justify-center `}
       href={direccion}
     >
-      <div className={`cards h-full w-96`}>
+      <div className={`cards h-full w-40 sm:w-52 md:w-72 lg:w-96`}>
         <div
           className={`page1 h-64 w-full grid grid-cols-1 grid-rows-[1fr,4fr] p-2 `}
         >
-          <p className="text-2xl flex justify-center">{nombre}</p>
+          <p className="text-md sm:text-2xl flex justify-center text-center">
+            {nombre}
+          </p>
 
           <div className="w-full grid items-center justify-center">
             <img
               src={imagen}
-              className="h-48 w-48 grid items-center justify-center"
+              className="sm:h-48 w-48 grid items-center justify-center"
               alt="github-icon"
             />
           </div>

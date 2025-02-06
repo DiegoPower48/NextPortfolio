@@ -18,7 +18,6 @@ interface Props {
 
 function Comentarios(props: Props) {
   const { title, name, email, text } = props.data;
-
   const { register, handleSubmit, reset } = useForm();
 
   // const informacionFormulario = watch();
@@ -27,7 +26,7 @@ function Comentarios(props: Props) {
     toast
       .promise(axios.post(`${process.env.NEXT_PRIVATE_API_URL}/correo`), {
         loading: "⏳⏳  ENVIANDO COMENTARIO......",
-        success: <b>"GRACIAS POR EL COMENTARIO!!!!🚀"</b>,
+        success: <b>{`"GRACIAS POR EL COMENTARIO!!!!🚀"`}</b>,
         error: <b>NO SE PUDO GUARDAR</b>,
       })
       .then((response) => {
