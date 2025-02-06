@@ -26,7 +26,7 @@ function Comentarios(props: Props) {
     toast
       .promise(axios.post(`${process.env.NEXT_PRIVATE_API_URL}/correo`), {
         loading: "⏳⏳  ENVIANDO COMENTARIO......",
-        success: <b>{`"GRACIAS POR EL COMENTARIO!!!!🚀"`}</b>,
+        success: "GRACIAS POR EL COMENTARIO!!!!🚀",
         error: <b>NO SE PUDO GUARDAR</b>,
       })
       .then((response) => {
