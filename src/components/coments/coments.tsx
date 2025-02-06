@@ -5,7 +5,7 @@ import "@/app/globals.css";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { Toaster, toast } from "react-hot-toast";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 interface Props {
   data: {
@@ -21,7 +21,7 @@ function Comentarios(props: Props) {
 
   const { register, watch, handleSubmit, reset } = useForm();
 
-  const informacionFormulario = watch();
+  // const informacionFormulario = watch();
 
   const Datos = () => {
     toast
