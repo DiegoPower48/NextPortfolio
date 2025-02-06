@@ -19,7 +19,7 @@ interface Props {
 function Comentarios(props: Props) {
   const { title, name, email, text } = props.data;
 
-  const { register, watch, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset } = useForm();
 
   // const informacionFormulario = watch();
 
