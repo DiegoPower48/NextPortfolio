@@ -48,7 +48,7 @@ function Comentarios(props: Props) {
         <input
           id="nombre"
           type="text"
-          className={`w-4/6 px-4 h-12 absolute bg-transparent rounded-xl outline-none z-50 formulario border-emerald-800 border-2`}
+          className={`w-5/6 lg:w-4/6  px-4 h-12 absolute bg-transparent rounded-xl outline-none z-50 formulario border-emerald-800 border-2`}
           {...register("nombre", { required: true })}
           required
         />
@@ -59,7 +59,7 @@ function Comentarios(props: Props) {
         <input
           id="correo"
           type="text"
-          className={`w-4/6 px-4 h-12 absolute bg-transparent rounded-xl outline-none z-50 formulario border-emerald-800 border-2`}
+          className={`w-5/6 lg:w-4/6  px-4 h-12 absolute bg-transparent rounded-xl outline-none z-50 formulario border-emerald-800 border-2`}
           {...register("correo", {
             required: { value: true, message: "ingresa correo" },
           })}
@@ -72,7 +72,7 @@ function Comentarios(props: Props) {
         <textarea
           autoCorrect="false"
           id="comentarios"
-          className={`w-4/6 h-40 absolute  rounded-xl p-4 resize-none outline-none bg-transparent textarea focus:border-emerald-500 z-50  border-emerald-800 border-2`}
+          className={`w-5/6 lg:w-4/6 h-40 absolute  rounded-xl p-4 resize-none outline-none bg-transparent textarea focus:border-emerald-500 z-50  border-emerald-800 border-2`}
           required
           {...register("comentario", { required: true })}
         ></textarea>
@@ -83,7 +83,7 @@ function Comentarios(props: Props) {
         type="submit"
         className="h-12 grid items-center font-bold text-xl justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
       >
-        Send
+        Enviar
       </button>
       <div className="w-full overflow-hidden relative"></div>
       <Toaster />

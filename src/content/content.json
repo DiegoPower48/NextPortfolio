@@ -4,43 +4,45 @@
     "description": "My portfolio created with Next.js and Tailwind CSS"
   },
   "Header": {
-    "me": "Me",
-    "about": "About",
-    "proyects": "Proyects",
-    "technologies": "Technologies",
-    "contact": "Contact"
+    "me": "Yo",
+    "about": "Quien soy",
+    "proyects": "Proyectos",
+    "technologies": "Tecnologias",
+    "contact": "Contactame"
   },
   "Resume": {
     "first": {
       "name": "Diego Torres",
-      "work": "FULLSTACK DEVELOPER"
+      "work": "Programador Fullstack"
     },
     "second": {
-      "seccion": "Age",
-      "detail": "31 years old"
+      "seccion": "Edad",
+      "detail": "31 años"
     },
     "third": {
-      "seccion": "Nationality",
-      "detail": "Peruvian"
+      "seccion": "Nacionalidad",
+      "detail": "Peruano"
     },
     "fourth": {
-      "seccion": "Cellphone",
+      "seccion": "Telefono",
       "detail": "+51 986377441"
     }
   },
   "Detail": {
-    "title": "ABOUT ME",
-    "about": "I am adedicated web and mobile developer with a focus on building high-performance applications that deliver seamless user experiences. My expertise lies in leveraging the React and React Native libraries to        create responsive, fast-loading, and intuitive applications tailored for both web and mobile platforms. By utilizing a diverse set of modern tools and frameworks, I optimize each project to reduce development time without compromising on quality. I am committed to crafting scalable solutions that meet the demands of today’s users while ensuring adaptability for future growth."
+    "title": "Quien soy",
+    "about": "Soy un desarrollador web y móvil enfocado en crear aplicaciones de alto rendimiento que brinden las mejores experiencias de usuario. Mi experiencia se basa en el uso de las bibliotecas React y React Native para desarrollar aplicaciones responsivas, de carga rápida e intuitivas, adaptadas tanto para la web como para plataformas móviles.",
+    "about2": "Al aprovechar un conjunto diverso de herramientas y frameworks modernos, optimizo cada proyecto para reducir el tiempo de desarrollo sin comprometer la calidad."
   },
+
   "Proyects": {
     "web": {
       "title": "Web",
       "proyects": [
         {
-          "nombre": "ONLINE CHAT",
+          "nombre": "CHAT ONLINE",
           "imagen": "https://i.ibb.co/HFVhJgC/Captura-de-pantalla-20-7-2024-7168-chatportfolio-up-railway-app.jpg",
           "direccion": "https://chatportfolio.vercel.app",
-          "descripcion": "Online chat, implement websockets with login and chat rooms, JWT security method.",
+          "descripcion": "Chat en línea con implementación de websockets, inicio de sesión y salas de chat, método de seguridad JWT",
           "tecnologias": [
             "MongoDB",
             "Express",
@@ -54,7 +56,7 @@
           "nombre": "STUFFED TOY STORE",
           "imagen": "https://i.ibb.co/28k3ndT/Opera-Captura-de-pantalla-2024-08-08-014230-localhost.png",
           "direccion": "https://teddy-store.vercel.app",
-          "descripcion": "Online stuffed toy store with registration, login, and shopping cart.",
+          "descripcion": "Tienda de peluches con inicio de sesion y carrito de compras.",
           "tecnologias": [
             "MongoDB",
             "Express",
@@ -68,7 +70,7 @@
           "nombre": "CRIPTO LIVES RATES",
           "imagen": "https://i.ibb.co/9NK54C6/image.png",
           "direccion": "https://criptoweb-portfolio.vercel.app",
-          "descripcion": "A project focused on extracting cryptocurrency price data from a webpage using Web Scraping techniques.",
+          "descripcion": "Proyecto enfocado en Web Scraping reuniendo datos de los valores actuales de criptomonedas",
           "tecnologias": [
             "MongoDB",
             "Express",
@@ -82,14 +84,14 @@
           "nombre": "FAST WEB TOOLS",
           "imagen": "https://i.ibb.co/R6k7Tz3/webtools.png",
           "direccion": "https://fasttools.vercel.app",
-          "descripcion": "Web application equipped with tools, using the native functions of the browser.",
+          "descripcion": "Aplicación web con varias herramientas creadas utilizando funciones nativas del navegador",
           "tecnologias": ["Express", "NextJs", "NodeJS", "Tailwind"]
         },
         {
           "nombre": "SCREEN SHARER",
           "imagen": "https://i.ibb.co/2grLcKW/screensharer.png",
           "direccion": "https://dev-screensharer.vercel.app",
-          "descripcion": "Web application for real-time screen sharing between two computers focused on delivering a fast and seamless user experience.",
+          "descripcion": "Aplicación web para compartir tu pantalla en tiempo real con otra persona utilizando comunicación peer-to-peer y websockets",
           "tecnologias": [
             "Express",
             "NextJs",
@@ -103,7 +105,7 @@
     }
   },
   "Technologies": {
-    "title": "TECHNOLOGIES",
+    "title": "Tecnologias",
     "frontend": {
       "title": "Frontent",
       "technologies": [
@@ -219,9 +221,9 @@
     }
   },
   "Comments": {
-    "title": "CONTACT ME",
-    "name": "Name",
-    "email": "Email",
-    "text": "Write your questions and comments here please"
+    "title": "Escribeme",
+    "name": "Nombre",
+    "email": "Correo",
+    "text": "Escribeme un mensaje"
   }
 }

@@ -161,17 +161,17 @@ function Tecnologias(props: Props) {
 
       {mode ? (
         <div
-          className="grid items-center justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
+          className="h-10 grid items-center justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
           onClick={changeModal}
         >
-          <IconCaretDown fill="white" strokeWidth={2} size={50} />
+          <IconCaretDown fill="white" strokeWidth={2} size={30} />
         </div>
       ) : (
         <div
-          className="grid items-center justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
+          className="h-10 grid items-center justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
           onClick={changeModal}
         >
-          <IconCaretUp fill="white" strokeWidth={2} size={50} />
+          <IconCaretUp fill="white" strokeWidth={2} size={30} />
         </div>
       )}
     </div>
