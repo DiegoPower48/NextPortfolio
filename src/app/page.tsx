@@ -30,8 +30,9 @@ export default function Home() {
         process.env.NEXT_PUBLIC_DEV_STATE ? "debug-screens" : ""
       }`}
     >
-      <Header data={content.Header} />
-
+      <div className="w-full z-50 lg:w-auto h-auto lg:h-screen sticky top-0 flex items-center justify-center ">
+        <Header data={content.Header} />
+      </div>
       <div className="w-full grid grid-cols-1 grid-rows-auto lg:gap-20 gap-32   justify-items-stretch">
         {isMobile ? <div id="Home"></div> : ""}
         <div className="h-full ">
