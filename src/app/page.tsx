@@ -25,7 +25,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="max-w-full grid lg:grid-cols-[1fr,4fr] grid-cols-1 bg-gradient-to-l from-background via-background via-90% to-emerald-900 debug-screens">
+    <div
+      className={`max-w-full grid lg:grid-cols-[1fr,4fr] grid-cols-1 bg-gradient-to-l from-background via-background via-90% to-emerald-900 ${
+        process.env.NEXT_PUBLIC_DEV_STATE ? "debug-screens" : ""
+      }`}
+    >
       <div className="w-full z-50 h-0 lg:h-screen sticky top-0 grid items-center justify-center ">
         <Header data={content.Header} />
       </div>
