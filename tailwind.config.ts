@@ -1,3 +1,4 @@
+import { button } from "framer-motion/client";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,11 +10,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        Background: "var(--background)",
         foreground: "var(--foreground)",
 
-        theme: "var(--theme)",
-        textTheme: "var(--text-theme)",
+        Theme: "var(--theme)",
+        Hover: "var(--hover)",
       },
     },
   },

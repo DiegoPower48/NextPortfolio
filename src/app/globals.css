@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
   --textColor: #171717;
   /*Tailwind*/
-  --theme: #10b981;
-  --text-theme: #0a0a0a;
+  --background: rgba(255, 255, 255, 0.603);
+  --theme: red;
+  --hover: orange;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --textColor: #ededed;
     /*Tailwind*/
-    --theme: #0a0a0a;
-    --text-theme: #10b981;
+    --background: #0a0a0a;
+    --theme: #10b981;
+    --hover: #006045;
   }
 }
 
@@ -30,33 +30,31 @@ html {
 }
 
 /* Coments*/
-
 .commentsLabel {
-  padding-left: 10px;
   transition: 0.2s ease;
 }
 
 .formulario:focus,
 .formulario:valid {
-  box-shadow: 1px 1px 10px 1px #10b981;
-  border: 3px solid #10b981;
+  box-shadow: 1px 1px 10px 1px var(--hover);
+  border: 3px solid var(--theme);
 }
 
 .textarea:focus,
 .textarea:valid {
-  box-shadow: 1px 1px 10px 1px #10b981;
-  border: 3px solid #10b981;
+  box-shadow: 1px 1px 10px 1px var(--hover);
+  border: 3px solid var(--theme);
 }
 
 .formulario:focus + .commentsLabel,
 .formulario:valid + .commentsLabel {
   transform: translate(-5px, -40px) scale(0.9);
-  color: #10b981;
+  color: var(--theme);
 }
 .textarea:valid + .commentsLabel,
 .textarea:focus + .commentsLabel {
-  transform: translate(-20px, -25px) scale(0.9);
-  color: #10b981;
+  transform: translate(-20px, -40px) scale(0.9);
+  color: var(--theme);
 }
 
 /* Proyects*/
@@ -73,7 +71,6 @@ html {
   backface-visibility: hidden;
   position: absolute;
   border-radius: 20px;
-  box-shadow: 1px 1px 10px 2px #008080;
 }
 
 .page2 {
@@ -81,7 +78,6 @@ html {
   backface-visibility: hidden;
   position: absolute;
   border-radius: 20px;
-  box-shadow: 1px 1px 10px 2px #008080;
 }
 .cajaProyectos:hover .cards {
   transform: rotateY(180deg);

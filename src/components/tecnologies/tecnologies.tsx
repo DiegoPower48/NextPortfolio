@@ -76,7 +76,7 @@ function Tecnologias(props: Props) {
           {mode ? (
             <>
               <div
-                className={`w-full grid grid-rows-auto border-2 border-emerald-500 rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
+                className={`w-full grid grid-rows-auto border-2 border-Theme rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
               >
                 <div className="text-textTheme flex justify-center text-3xl font-bold">
                   {frontend.title}
@@ -91,7 +91,7 @@ function Tecnologias(props: Props) {
                 </div>
               </div>
               <div
-                className={`w-full grid grid-rows-auto border-2 border-emerald-500 rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
+                className={`w-full grid grid-rows-auto border-2 border-Theme rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
               >
                 <div className="text-textTheme flex justify-center text-3xl font-bold">
                   {backend.title}
@@ -106,7 +106,7 @@ function Tecnologias(props: Props) {
                 </div>
               </div>
               <div
-                className={`w-full grid grid-rows-auto border-2 border-emerald-500 rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
+                className={`w-full grid grid-rows-auto border-2 border-Theme rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
               >
                 <div className="text-textTheme flex justify-center text-3xl font-bold">
                   {database.title}
@@ -121,7 +121,7 @@ function Tecnologias(props: Props) {
                 </div>
               </div>
               <div
-                className={`w-full grid grid-rows-auto border-2 border-emerald-500 rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
+                className={`w-full grid grid-rows-auto border-2 border-Theme rounded-xl shadow-[0px 0px 10px 0px #10B981] p-5`}
               >
                 <div className="text-textTheme flex justify-center text-3xl font-bold">
                   {tools.title}
@@ -161,14 +161,14 @@ function Tecnologias(props: Props) {
 
       {mode ? (
         <div
-          className="h-10 grid items-center justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
+          className="h-10 grid items-center justify-center bg-Theme hover:bg-Hover rounded-xl"
           onClick={changeModal}
         >
           <IconCaretDown fill="white" strokeWidth={2} size={30} />
         </div>
       ) : (
         <div
-          className="h-10 grid items-center justify-center bg-emerald-500 hover:bg-emerald-700 rounded-xl"
+          className="h-10 grid items-center justify-center bg-Theme hover:bg-Hover rounded-xl"
           onClick={changeModal}
         >
           <IconCaretUp fill="white" strokeWidth={2} size={30} />

@@ -32,19 +32,19 @@ function Resume(props: Props) {
       <div className="h-full w-full grid grid-rows-[3fr,2fr,2fr] items-center justify-center p-5 ">
         <div className="h-full grid grid-rows-[3fr,1fr] gap-7 font-bold items-center">
           <p className=" text-6xl text-center ">{first.name}</p>
-          <p className=" text-xl text-center  text-emerald-500">{first.work}</p>
+          <p className=" text-xl text-center text-Theme">{first.work}</p>
         </div>
         <div className="grid gap-2 justify-center">
           <div className="flex space-x-3 ">
-            <p className="font-bold text-textTheme">{second.seccion} </p>
+            <p className="font-bold text-Theme">{second.seccion} </p>
             <p>{second.detail}</p>
           </div>
           <div className="flex space-x-3">
-            <p className="font-bold text-textTheme">{third.seccion} </p>
+            <p className="font-bold text-Theme">{third.seccion} </p>
             <p> {third.detail}</p>
           </div>
           <div className="flex space-x-3">
-            <p className="font-bold text-textTheme"> {fourth.seccion} </p>
+            <p className="font-bold text-Theme"> {fourth.seccion} </p>
             <p> {fourth.detail}</p>
           </div>
         </div>
@@ -55,10 +55,8 @@ function Resume(props: Props) {
               href="https://github.com/DiegoPower48"
               className=" hover:scale-125 transition-all group"
             >
-              <IconBrandGithubFilled className="h-16 w-16  group-hover:fill-emerald-500" />
-              <div className="text-center group-hover:text-emerald-500">
-                Github
-              </div>
+              <IconBrandGithubFilled className="h-16 w-16  group-hover:fill-Theme" />
+              <div className="text-center group-hover:text-Theme">Github</div>
             </a>
           </div>
           <div className="w-full grid  justify-center ">
@@ -66,10 +64,8 @@ function Resume(props: Props) {
               href="https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242"
               className="hover:scale-125 transition-all group"
             >
-              <IconBrandLinkedinFilled className="h-16 w-16  group-hover:fill-emerald-500" />
-              <div className="text-center group-hover:text-emerald-500">
-                Linkedin
-              </div>
+              <IconBrandLinkedinFilled className="h-16 w-16  group-hover:fill-Theme" />
+              <div className="text-center group-hover:text-Theme">Linkedin</div>
             </a>
           </div>
         </div>
