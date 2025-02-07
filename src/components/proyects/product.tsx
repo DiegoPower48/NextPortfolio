@@ -16,7 +16,7 @@ export default function Products(props: Props) {
       className={`cajaProyectos h-64 w-full grid items-center justify-center `}
       href={direccion}
     >
-      <div className={`cards h-full w-40 sm:w-52 md:w-72 lg:w-96`}>
+      <div className={`cards h-full w-96 sm:w-52 md:w-72 lg:w-96`}>
         <div
           className={`page1 h-64 w-full grid grid-cols-1 grid-rows-[1fr,5fr] p-2 `}
         >
@@ -27,19 +27,17 @@ export default function Products(props: Props) {
           <div className="w-full grid items-center justify-center">
             <img
               src={imagen}
-              className="sm:h-48 w-48 grid items-center justify-center"
+              className="sm:h-48 h-52 w-48 grid items-center justify-center"
               alt="github-icon"
             />
           </div>
         </div>
-        <div
-          className={`page2  h-64 w-full grid grid-rows-[auto,auto] p-2 lg:p-7`}
-        >
-          <p className="text-sm">{descripcion}</p>
+        <div className={`page2  h-64 w-full grid grid-rows-[auto,auto] p-7`}>
+          <p className="">{descripcion}</p>
           <div className="w-full flex flex-wrap lg:justify-center justify-start">
             {tecnologias.map((element, index) => (
               <span
-                className="text-emerald-500 lg:shadow-[0_0_10px_5px_#10b981] border-emerald-500 border-2 text-xs h-6 lg:h-7 lg:m-2 p-1 rounded-lg hover:bg-emerald-500 hover:text-white"
+                className="text-emerald-500 shadow-[0_0_10px_5px_#10b981] border-emerald-500 border-2 text-xs h-6 m-2 p-1 rounded-lg hover:bg-emerald-500 hover:text-white"
                 key={index}
               >
                 {element}

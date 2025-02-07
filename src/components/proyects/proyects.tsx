@@ -24,7 +24,7 @@ function Proyectos(props: Props) {
       <div className="h-full w-full flex items-center justify-center text-4xl text-textTheme p-7">
         {web.title}
       </div>
-      <div className="h-full w-full grid grid-cols-2 grid-rows-auto gap-y-12">
+      <div className="h-full w-full grid md:grid-cols-2 grid-rows-auto gap-y-12">
         {web.proyects.map((element, index: number) => (
           <Products
             nombre={element.nombre}
