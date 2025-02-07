@@ -1,7 +1,5 @@
 "use client";
 
-import "@/app/globals.css";
-
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { Toaster, toast } from "react-hot-toast";
@@ -24,7 +22,7 @@ function Comentarios(props: Props) {
 
   const Datos = () => {
     toast
-      .promise(axios.post(`${process.env.NEXT_PRIVATE_API_URL}/correo`), {
+      .promise(axios.post(`${process.env.NEXT_PUBLIC_API_URL}/correo`), {
         loading: "⏳⏳  ENVIANDO COMENTARIO......",
         success: "GRACIAS POR EL COMENTARIO!!!!🚀",
         error: <b>NO SE PUDO GUARDAR</b>,
