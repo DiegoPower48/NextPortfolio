@@ -26,14 +26,14 @@ export default function Home() {
 
   return (
     <div
-      className={`max-w-screen grid lg:grid-cols-[1fr,4fr] grid-cols-1 lg:bg-gradient-to-l lg:from-background lg:via-background lg:via-90% lg:to-emerald-900  ${
+      className={`max-w-screen h-full  grid lg:grid-cols-[1fr,4fr] grid-cols-1 lg:bg-gradient-to-l lg:from-background lg:via-background lg:via-90% lg:to-emerald-900 pb-20  ${
         process.env.NEXT_PUBLIC_DEV_STATE ? "debug-screens" : ""
       }`}
     >
       <div className="w-full z-50 lg:w-auto h-auto lg:h-screen sticky top-0 flex items-center justify-center ">
         <Header data={content.Header} />
       </div>
-      <div className="w-full grid grid-cols-1 grid-rows-auto lg:gap-20 gap-32   justify-items-stretch">
+      <div className="w-full h-full grid grid-cols-1 grid-rows-auto lg:gap-20 gap-32 ">
         {isMobile ? <div id="Home"></div> : ""}
         <div className="h-full ">
           {isMobile ? "" : <div id="Home"></div>}

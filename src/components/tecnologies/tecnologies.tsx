@@ -83,7 +83,7 @@ function Tecnologias(props: Props) {
                 </div>
 
                 <div
-                  className={`w-full grid grid-rows-auto grid-cols-5 justify-center items-center p-4 gap-3`}
+                  className={`w-full grid grid-rows-auto grid-cols-2  sm:grid-cols-3 md:grid-cols-5 justify-center items-center p-4 gap-3`}
                 >
                   {frontend.technologies.map((element, i) => (
                     <Item data={element} key={i} />
@@ -98,7 +98,7 @@ function Tecnologias(props: Props) {
                 </div>
 
                 <div
-                  className={`w-full grid grid-rows-auto grid-cols-5 justify-center items-center p-4 gap-3`}
+                  className={`w-full grid grid-rows-auto grid-cols-2  sm:grid-cols-3 md:grid-cols-5 justify-center items-center p-4 gap-3`}
                 >
                   {backend.technologies.map((element, i: number) => (
                     <Item data={element} key={i} />
@@ -113,7 +113,7 @@ function Tecnologias(props: Props) {
                 </div>
 
                 <div
-                  className={`w-full grid grid-rows-auto grid-cols-5 justify-center items-center p-4 gap-3`}
+                  className={`w-full grid grid-rows-auto grid-cols-2  sm:grid-cols-3 md:grid-cols-5 justify-center items-center p-4 gap-3`}
                 >
                   {database.technologies.map((element, i: number) => (
                     <Item data={element} key={i} />
@@ -128,7 +128,7 @@ function Tecnologias(props: Props) {
                 </div>
 
                 <div
-                  className={`w-full grid grid-rows-auto grid-cols-5 justify-center items-center p-4 gap-3`}
+                  className={`w-full grid grid-rows-auto grid-cols-2  sm:grid-cols-3 md:grid-cols-5 justify-center items-center p-4 gap-3`}
                 >
                   {tools.technologies.map((element, i: number) => (
                     <Item data={element} key={i} />
