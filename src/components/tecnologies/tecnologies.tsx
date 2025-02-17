@@ -53,7 +53,7 @@ function Tecnologias(props: Props) {
 
   return (
     <div className="w-full h-full grid grid-cols-1 grid-rows-[auto,auto,auto] gap-4">
-      <p className="font-bold text-textTheme text-4xl">{title}:</p>
+      <p className="font-bold text-Theme text-4xl">{title}:</p>
 
       <div className={`grid grid-rows-1 w-full overflow-hidden`}>
         <div

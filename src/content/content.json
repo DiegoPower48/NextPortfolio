@@ -1,7 +1,29 @@
 {
   "metadata": {
     "title": "Diego Portfolio",
-    "description": "My portfolio created with Next.js and Tailwind CSS"
+    "description": "My portfolio created with Next.js and Tailwind CSS",
+    "authors": [
+      {
+        "name": "Diego Torres",
+        "url": "https://diegotorres-portfoliodev.vercel.app"
+      }
+    ],
+    "openGraph": {
+      "title": "My Portfolio",
+      "description": "Portfolio created by Diego Torres",
+      "url": "https://diegotorres-portfoliodev.vercel.app",
+      "siteName": "Diego Torres Portfolio",
+      "images": [
+        {
+          "url": "/icon.ico",
+          "width": 1200,
+          "height": 630,
+          "alt": "Portfolio logo"
+        }
+      ],
+      "locale": "en_US",
+      "type": "website"
+    }
   },
   "Header": {
     "me": "Yo",
@@ -13,7 +35,7 @@
   "Resume": {
     "first": {
       "name": "Diego Torres",
-      "work": "Programador Fullstack"
+      "work": "Programador FullStack"
     },
     "second": {
       "seccion": "Edad",
@@ -26,6 +48,16 @@
     "fourth": {
       "seccion": "Telefono",
       "detail": "+51 986377441"
+    },
+    "links": {
+      "github": {
+        "title": "Github",
+        "detail": "https://github.com/DiegoPower48"
+      },
+      "linkedin": {
+        "title": "Linkedin",
+        "detail": "https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242"
+      }
     }
   },
   "Detail": {
@@ -110,38 +142,38 @@
       "title": "Frontent",
       "technologies": [
         {
-          "url": "https://www.svgrepo.com/show/373669/html.svg",
+          "url": "/html.svg",
           "alt": "Html",
           "style": "Icono1"
         },
         {
-          "url": "https://www.svgrepo.com/show/452185/css-3.svg",
+          "url": "/css.svg",
           "alt": "Css",
           "style": "Icono2"
         },
         {
-          "url": "https://www.svgrepo.com/show/349419/javascript.svg",
+          "url": "/javascript.svg",
           "alt": "Javascript",
           "style": "Icono3"
         },
         {
-          "url": "https://www.svgrepo.com/show/439290/react.svg",
+          "url": "/react.svg",
           "alt": "React",
           "style": "Icono4"
         },
         {
-          "url": "https://www.iconbolt.com/iconsets/teenyicons-outline/nextjs.svg",
-          "alt": "NextJs",
+          "url": "/nextjs.svg",
+          "alt": "Nextjs",
           "style": "Icono5"
         },
 
         {
-          "url": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+          "url": "/typescript.svg",
           "alt": "Typescript",
           "style": "Icono6"
         },
         {
-          "url": "https://www.svgrepo.com/show/503536/react.svg",
+          "url": "/react.svg",
           "alt": "React Native",
           "style": "Icono7"
         }
@@ -151,69 +183,64 @@
       "title": "Backend",
       "technologies": [
         {
-          "url": "https://www.svgrepo.com/show/452091/python.svg",
+          "url": "/python.svg",
           "alt": "Python",
           "style": "Icono8"
         },
         {
-          "url": "https://www.svgrepo.com/show/354180/php.svg",
+          "url": "/php.svg",
           "alt": "PHP",
           "style": "Icono9"
         },
 
         {
-          "url": "https://www.svgrepo.com/show/369381/laravel.svg",
+          "url": "/laravel.svg",
           "alt": "Laravel",
           "style": "Icono10"
         },
         {
-          "url": "https://www.svgrepo.com/show/354107/nestjs.svg",
+          "url": "/nestjs.svg",
           "alt": "NestJs",
           "style": "Icono11"
-        },
-        {
-          "url": "https://www.svgrepo.com/show/354228/puppeteer.svg",
-          "alt": "Puppeteer",
-          "style": "Icono12"
         }
       ]
     },
     "database": {
-      "title": "Database",
+      "title": "Base de datos",
       "technologies": [
         {
-          "url": "https://www.svgrepo.com/show/373595/firebase.svg",
+          "url": "/firebase.svg",
           "alt": "Firebase",
           "style": "Icono13"
         },
         {
-          "url": "https://www.svgrepo.com/show/303301/postgresql-logo.svg",
+          "url": "/postgresql.svg",
           "alt": "PostgreSQL",
           "style": "Icono14"
         },
         {
-          "url": "https://www.svgrepo.com/show/342053/mysql.svg",
+          "url": "/mysql.svg",
           "alt": "MySQL",
           "style": "Icono15"
         },
         {
-          "url": "https://www.svgrepo.com/show/331488/mongodb.svg",
+          "url": "/mongodb.svg",
           "alt": "MongoDB",
           "style": "Icono16"
         }
       ]
     },
     "tools": {
-      "title": "Tools",
+      "title": "Herramientas",
       "technologies": [
         {
-          "url": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+          "url": "/bootstrap.svg",
           "alt": "Bootstrap",
           "style": "Icono17"
         },
 
         {
-          "url": "https://www.svgrepo.com/show/374118/tailwind.svg",
+          "url": "/tailwind.svg",
           "alt": "Tailwind",
           "style": "Icono18"
         }

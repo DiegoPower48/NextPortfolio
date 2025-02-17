@@ -36,7 +36,6 @@ function Header(props: Props) {
             setSelected("inicio");
           }}
         >
-          {" "}
           <div className="flex justify-center">
             <IconUser className="h-10 sm:h-14 w-10 sm:w-14 flex justify-center items-center  group-hover:stroke-Theme" />
           </div>
@@ -81,7 +80,6 @@ function Header(props: Props) {
           href="#Proyectos"
           onClick={() => setSelected("proyectos")}
         >
-          {" "}
           <div className="flex justify-center">
             <IconCode
               fill="white"
@@ -109,7 +107,6 @@ function Header(props: Props) {
           href="#Tecnologias"
           onClick={() => setSelected("tecnologias")}
         >
-          {" "}
           <div className="flex justify-center">
             <IconTools className="h-10 sm:h-14 w-10 sm:w-14 flex justify-center items-center  group-hover:stroke-Theme" />
           </div>
@@ -132,7 +129,6 @@ function Header(props: Props) {
           href="#Contactos"
           onClick={() => setSelected("contactos")}
         >
-          {" "}
           <div className="flex justify-center">
             <IconMailFast className="h-10 sm:h-14 w-10 sm:w-14 flex justify-center item-center  group-hover:stroke-Theme" />
           </div>

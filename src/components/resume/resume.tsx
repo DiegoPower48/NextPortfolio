@@ -21,11 +21,21 @@ interface Props {
       seccion: string;
       detail: string;
     };
+    links: {
+      github: {
+        title: string;
+        detail: string;
+      };
+      linkedin: {
+        title: string;
+        detail: string;
+      };
+    };
   };
 }
 
 function Resume(props: Props) {
-  const { first, second, third, fourth } = props.data;
+  const { first, second, third, fourth, links } = props.data;
 
   return (
     <div className="h-full w-full grid grid-rows-[auto,auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[3fr,4fr] items-center justify-center">
@@ -52,20 +62,24 @@ function Resume(props: Props) {
         <div className="w-full flex justify-center items-center ">
           <div className="w-full grid  justify-center ">
             <a
-              href="https://github.com/DiegoPower48"
+              href={links.github.detail}
               className=" hover:scale-125 transition-all group"
             >
-              <IconBrandGithubFilled className="h-16 w-16  group-hover:fill-Theme" />
-              <div className="text-center group-hover:text-Theme">Github</div>
+              <IconBrandGithubFilled className="h-16 w-16  group-hover:fill-Hover" />
+              <div className="text-center group-hover:text-Hover">
+                {links.github.title}
+              </div>
             </a>
           </div>
           <div className="w-full grid  justify-center ">
             <a
-              href="https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242"
+              href={links.linkedin.detail}
               className="hover:scale-125 transition-all group"
             >
-              <IconBrandLinkedinFilled className="h-16 w-16  group-hover:fill-Theme" />
-              <div className="text-center group-hover:text-Theme">Linkedin</div>
+              <IconBrandLinkedinFilled className="h-16 w-16  group-hover:fill-Hover" />
+              <div className="text-center group-hover:text-Hover">
+                {links.linkedin.title}
+              </div>
             </a>
           </div>
         </div>

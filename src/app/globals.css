@@ -5,10 +5,13 @@
 :root {
   --textColor: #171717;
   /*Tailwind*/
-  --background: rgba(255, 255, 255, 0.603);
+  --background: #ededed;
   --theme: red;
   --hover: orange;
 }
+
+/* Tema: #10b981 */
+/* hover: #006045 */
 
 @media (prefers-color-scheme: dark) {
   :root {
