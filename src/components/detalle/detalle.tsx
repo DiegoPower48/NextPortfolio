@@ -10,14 +10,10 @@ function Detalle(props: Props) {
   const { title, about, about2 } = props.data;
 
   return (
-    <div className="h-full w-full grid grid-rows-[1fr,1fr,1fr] ">
+    <div className="h-full w-full grid grid-rows-[1fr,2fr,2fr] items-center md:gap-4 ">
       <p className="font-bold text-Theme text-4xl">{title}:</p>
       <p className="">{about}</p>
-
-      <p className="">
-        <br />
-        {about2}
-      </p>
+      <p className="">{about2}</p>
     </div>
   );
 }
