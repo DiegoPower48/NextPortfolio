@@ -1,22 +1,17 @@
 "use client";
 
+import Comentarios from "@/components/coments/coments";
+import Detalle from "@/components/detalle/detalle";
+import Header from "@/components/header/header";
+import Proyectos from "@/components/proyects/proyects";
+import Resume from "@/components/resume/resume";
+import Tecnologias from "@/components/tecnologies/tecnologies";
 import content from "@/content/content.json";
-import dynamic from "next/dynamic";
+
 import { useState, useEffect } from "react";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
-
-  const Comentarios = dynamic(() => import("@/components/coments/coments"));
-
-  const Detalle = dynamic(() => import("@/components/detalle/detalle"));
-
-  const Header = dynamic(() => import("@/components/header/header"));
-  const Proyectos = dynamic(() => import("@/components/proyects/proyects"));
-  const Resume = dynamic(() => import("@/components/resume/resume"));
-  const Tecnologias = dynamic(
-    () => import("@/components/tecnologies/tecnologies")
-  );
 
   useEffect(() => {
     const handleResize = () => {

@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: content.metadata.title,
   description: content.metadata.description,
   authors: content.metadata.authors,
+  metadataBase: new URL("https://diegotorres-portfoliodev.vercel.app"),
   openGraph: content.metadata.openGraph,
 };
 
