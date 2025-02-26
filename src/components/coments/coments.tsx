@@ -42,7 +42,7 @@ function Comentarios(props: Props) {
       onSubmit={handleSubmit(Datos)}
     >
       <div className="h-16 w-full flex  ">
-        <p className="font-bold text-Theme text-4xl">{title}</p>
+        <p className="font-bold text-Theme text-4xl">{title}:</p>
       </div>
       <div className="h-16 w-full flex   ">
         <input

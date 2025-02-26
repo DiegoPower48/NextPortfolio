@@ -68,7 +68,7 @@
 
   "Proyects": {
     "web": {
-      "title": "Web",
+      "title": "Proyectos",
       "proyects": [
         {
           "nombre": "CHAT ONLINE",
@@ -248,7 +248,7 @@
     }
   },
   "Comments": {
-    "title": "Escribeme",
+    "title": "Conversemos",
     "name": "Nombre",
     "email": "Correo",
     "text": "Escribeme un mensaje"

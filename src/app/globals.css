@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --textColor: #171717;
+  --textColor: #ededed;
   /*Tailwind*/
-  --background: #ededed;
-  --theme: red;
-  --hover: orange;
+  --background: #0a0a0a;
+  --theme: #10b981;
+  --hover: #006045;
 }
 
 /* Tema: #10b981 */
