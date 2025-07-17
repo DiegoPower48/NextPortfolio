@@ -21,7 +21,7 @@ interface Props {
 
 function Header(props: Props) {
   const { me, proyects,about, technologies, contact } = props.data;
-  const enviroment = process.env.PROBANDO
+  const enviroment = process.env.NEXT_PUBLIC_PROBANDO
 
   const [selected, setSelected] = useState("inicio");
 
