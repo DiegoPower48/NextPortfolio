@@ -20,7 +20,7 @@ interface Props {
 }
 
 function Header(props: Props) {
-  const { me, about, proyects, technologies, contact } = props.data;
+  const { me, proyects, technologies, contact } = props.data;
 
   const [selected, setSelected] = useState("inicio");
 
