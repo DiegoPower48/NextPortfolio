@@ -20,7 +20,7 @@ interface Props {
 }
 
 function Header(props: Props) {
-  const { me, proyects, technologies, contact } = props.data;
+  const { me, proyects,about, technologies, contact } = props.data;
   const enviroment = process.env.PROBANDO
 
   const [selected, setSelected] = useState("inicio");
@@ -69,8 +69,8 @@ function Header(props: Props) {
                 : "text-transparent group-hover:text-Theme"
             }`}
           >
-            {enviroment}
-          </span>
+          {about}
+          </span>  <div>{enviroment}</div>
         </a>
       </div>
       <div className="grid items-center justify-center">
