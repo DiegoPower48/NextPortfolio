@@ -68,7 +68,7 @@ function Header(props: Props) {
                 : "text-transparent group-hover:text-Theme"
             }`}
           >
-            {about}
+            {process.env.PROBANDO}
           </span>
         </a>
       </div>
