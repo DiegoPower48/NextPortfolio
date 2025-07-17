@@ -21,8 +21,7 @@ interface Props {
 
 function Header(props: Props) {
   const { me, proyects,about, technologies, contact } = props.data;
-  const enviroment = process.env.NEXT_PUBLIC_PROBANDO
-
+ 
   const [selected, setSelected] = useState("inicio");
 
   return (
@@ -70,8 +69,7 @@ function Header(props: Props) {
             }`}
           >
           {about}
-          </span>  <div>{enviroment}</div>
-        </a>
+          </span>        </a>
       </div>
       <div className="grid items-center justify-center">
         <a
