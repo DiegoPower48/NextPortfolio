@@ -16,20 +16,20 @@ interface Props {
 
 function Comentarios(props: Props) {
   const { title, name, email, text } = props.data;
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset,watch } = useForm();
 
-  // const informacionFormulario = watch();
+  const informacionFormulario = watch();
 
   const Datos = () => {
     toast
-      .promise(axios.post(`${process.env.NEXT_PUBLIC_API_URL}/portfolio`), {
+      .promise(axios.post(`${process.env.NEXT_PUBLIC_API_URL}/portfolio`,informacionFormulario), {
         loading: "⏳⏳  ENVIANDO COMENTARIO......",
         success: "GRACIAS POR EL COMENTARIO!!!!🚀",
         error: <b>NO SE PUDO GUARDAR</b>,
       })
-      .then((response) => {
+      .then(() => {
         reset();
-        console.log(response);
+        console.log(informacionFormulario);  
       })
       .catch((error) => {
         console.log(error);
