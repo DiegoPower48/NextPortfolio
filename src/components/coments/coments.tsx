@@ -22,7 +22,7 @@ function Comentarios(props: Props) {
 
   const Datos = () => {
     toast
-      .promise(axios.post(`${process.env.NEXT_PUBLIC_API_URL}/correo`), {
+      .promise(axios.post(`${process.env.NEXT_PUBLIC_API_URL}/portfolio`), {
         loading: "⏳⏳  ENVIANDO COMENTARIO......",
         success: "GRACIAS POR EL COMENTARIO!!!!🚀",
         error: <b>NO SE PUDO GUARDAR</b>,
